@@ -2,7 +2,7 @@
 "manifest_version": 2,
     "name": "Würstchenizer",
     "description": "Würstchen up your live!",
-    "version": "1.0",
+    "version": "1.2",
     "icons": { "16": "wurst.png",
         "48": "wurst128.png",
         "128": "wurst128.png" },

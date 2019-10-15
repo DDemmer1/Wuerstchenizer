@@ -1,6 +1,3 @@
-var cursor_url =  chrome.extension.getURL("wurst.png");
-document.body.style.cursor = "url("+cursor_url+"),auto";
-
 function wuerstchenize(){
     var elements = document.getElementsByTagName('*');
 
@@ -20,6 +17,7 @@ function wuerstchenize(){
 
                 if (replacedText !== text) {
                     element.replaceChild(document.createTextNode(replacedText), node);
+                    element.style.cursor = "url("+chrome.extension.getURL("wurst.png")+"),auto";
                 }
             }
         }
