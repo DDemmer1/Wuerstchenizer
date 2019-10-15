@@ -1,3 +1,6 @@
+var cursor_url =  chrome.extension.getURL("wurst.png");
+document.body.style.cursor = "url("+cursor_url+"),auto";
+
 function wuerstchenize(){
     var elements = document.getElementsByTagName('*');
 

@@ -3,6 +3,12 @@
     "name": "Würstchenizer",
     "description": "Würstchen up your live!",
     "version": "1.0",
+    "icons": { "16": "wurst.png",
+        "48": "wurst128.png",
+        "128": "wurst128.png" },
+    "web_accessible_resources": [
+        "wurst.png"
+        ],
     "content_scripts": [
         {
             "matches": [
